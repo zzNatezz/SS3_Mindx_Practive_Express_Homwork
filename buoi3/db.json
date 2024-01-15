@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "9fceb585-042f-4f10-9cb5-37c529d93166",
+      "userName": "Nobita",
+      "email": "nobita@japanese.com",
+      "age": 5,
+      "avatar": "https://i.kym-cdn.com/photos/images/original/000/985/256/d51.png"
+    },
+    {
+      "id": "US8710",
+      "content": "SDSDSDSD",
+      "createdAt": "2023-09-22T12:30:00.000Z",
+      "isPublic": true,
+      "userId": "US8710",
+      "postId": "1a61d20c-0f20-4e01-9857-c8989283ab21"
+    }
+  ],
+  "posts": [
+    {
+      "userId": "9fceb585-042f-4f10-9cb5-37c529d93166",
+      "postId": "d051b29e-d9c5-4cb1-89bf-38b31aef05f1",
+      "content": "Chào mọi người!",
+      "createdAt": "2023-09-22T12:30:00.000Z",
+      "isPublic": true,
+      "id": "0334"
+    },
+    {
+      "userId": "9fceb585-042f-4f10-9cb5-37c529d93166",
+      "postId": "cfcc73cd-5297-48a4-8d3a-2282a30a8c7a",
+      "content": "Tôi đã tìm thấy một quyển sách tuyệt vời để đọc.",
+      "createdAt": "2023-09-22T12:31:00.000Z",
+      "isPublic": false,
+      "id": "2ec4"
+    },
+    {
+      "id": "US8710",
+      "content": "Tested",
+      "createdAt": "2023-09-22T12:30:00.000Z",
+      "isPublic": "false",
+      "postId": "d000737d-aba9-4e32-a841-405ced61a177",
+      "comment": [
+        {
+          "userId": "US8710",
+          "comment": "comment nay da duoc chinh sua",
+          "id": 1
+        },
+        {
+          "id": 2,
+          "content": "ad vs id 2",
+          "userId": "US8710"
+        },
+        {
+          "id": 3,
+          "content": "ad vs id 3",
+          "userId": "US8710"
+        }
+      ]
+    }
+  ]
+}
