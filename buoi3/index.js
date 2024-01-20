@@ -126,7 +126,7 @@ sv.put('/users/editComment/:postId', async (req, res) =>{
             res.status(500).send('Post has been removed')
         }
         else{
-            const checkUserAndID = isPost.comment.find(item => item.id === body.id && item.userId === body.userId );
+            const checkUserAndID = isPost.comment.find(item => item.id === body.id );
             if(!checkUserAndID ){
                 res.status(401).send(`can't edit because you do not own this post or this post is removed by manager due to company policy`)
             }

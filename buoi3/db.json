@@ -42,12 +42,12 @@
       "comment": [
         {
           "userId": "US8710",
-          "comment": "comment nay da duoc chinh sua",
+          "content": "comment nay da duoc chinh sua",
           "id": 1
         },
         {
           "id": 2,
-          "content": "ad vs id 2",
+          "content": "ad vs id 2",    
           "userId": "US8710"
         },
         {

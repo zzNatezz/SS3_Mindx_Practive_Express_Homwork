@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^1.6.5",
+    "express": "^4.18.2",
+    "json-server": "^1.0.0-alpha.21",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2",
+    "uuid": "^9.0.1"
+  },
+  "name": "buoi4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "module": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "json": "json-server db.json -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
